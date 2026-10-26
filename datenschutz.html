@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Datenschutz · Famulus Academic</title><meta name="description" content="Datenschutzerklärung von Famulus Academic">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/icon.svg"><style>
+:root{--blue:#14213d;--gold:#b8921f;--ink:#1d2433;--muted:#5b6475;--paper:#fbf9f4;--card:#ffffff;--line:#e7e1d3}
+@media (prefers-color-scheme:dark){:root{--blue:#d9c27a;--gold:#d4b04a;--ink:#e9e6df;--muted:#a4abb8;--paper:#0f1524;--card:#161e31;--line:#263049}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+.serif,h1,h2,h3{font-family:"EB Garamond",Garamond,"Times New Roman",serif;font-weight:500;color:var(--blue)}
+a{color:var(--blue)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.brand{font-family:"EB Garamond",serif;font-size:22px;color:var(--blue);text-decoration:none;letter-spacing:.01em}
+.brand b{font-weight:500;color:var(--gold)}
+.lang{background:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--muted);font:inherit;font-size:14px;cursor:pointer}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:28px 0 56px}
+.kicker{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.02;margin:0 0 18px;font-style:italic}
+.lede{font-size:19px;color:var(--muted);max-width:34em;margin:0 0 24px}
+.cta{display:inline-block;background:var(--blue);color:var(--paper);padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:600}
+.cta small{display:block;font-weight:400;opacity:.8;font-size:13px}
+.phone{justify-self:center;width:min(300px,80vw);border-radius:38px;border:10px solid #10151f;box-shadow:0 30px 60px -25px rgba(20,33,61,.45);background:#10151f;overflow:hidden}
+.phone img{display:block;width:100%;height:auto}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(28px,4.4vw,40px);margin:0 0 8px;font-style:italic}
+.sub{color:var(--muted);margin:0 0 28px;max-width:40em}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 20px 18px;display:flex;flex-direction:column;gap:10px}
+.card svg{width:34px;height:34px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.card h3{margin:0;font-size:24px;line-height:1.15}
+.card p{margin:0;color:var(--muted);font-size:15.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.chip{font-size:12.5px;border-radius:999px;padding:3px 10px;background:color-mix(in srgb,var(--gold) 12%,transparent);color:var(--ink)}
+.chip.group{background:var(--gold);color:#fff}
+.legend{font-size:13px;color:var(--muted);margin-top:14px}
+.legend .chip{margin-right:4px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
+.step:before{counter-increment:s;content:counter(s);font-family:"EB Garamond",serif;font-size:40px;color:var(--gold);line-height:1}
+.step h3{margin:6px 0 6px;font-size:22px}.step p{margin:0;color:var(--muted);font-size:15.5px}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.shots figure{margin:0}.shots img{width:100%;border-radius:22px;border:1px solid var(--line)}
+.shots figcaption{font-size:14px;color:var(--muted);margin-top:6px;text-align:center}
+.trust{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.trust div{border-left:2px solid var(--gold);padding:2px 0 2px 14px}.trust b{color:var(--blue)}
+footer{padding:36px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+[data-l="en"]{display:none}html[lang="en"] [data-l="de"]{display:none}html[lang="en"] [data-l="en"]{display:revert}
+@media (max-width:760px){.hero{grid-template-columns:1fr;gap:28px}.steps{grid-template-columns:1fr}}
+</style></head>
+<body><div class="wrap"><header class="top"><a class="brand" href="./">Famulus <b>Academic</b></a>
+<button class="lang" id="lang" type="button">English</button></header>
+<section style="border-top:0">
+<p class="kicker"><span data-l="de">Datenschutz</span><span data-l="en">Privacy</span></p>
+<h2><span data-l="de">Datenschutzerklärung</span><span data-l="en">Privacy policy</span></h2>
+<p class="sub"><span data-l="de">Stand: 26. Oktober 2026. Verantwortlich: Prof. Dr. Gerd Graßhoff, Humboldt-Universität zu Berlin, <a href="mailto:gerd.grasshoff@hu-berlin.de">gerd.grasshoff@hu-berlin.de</a>.</span>
+<span data-l="en">As of 26 October 2026. Responsible: Prof. Dr. Gerd Graßhoff, Humboldt-Universität zu Berlin, <a href="mailto:gerd.grasshoff@hu-berlin.de">gerd.grasshoff@hu-berlin.de</a>.</span></p>
+
+<div data-l="de" class="legal">
+<h3>Was die App speichert</h3>
+<p>Ihre Aufnahmen, dazugelegte Folien und Fotos, die Namen Ihrer Gruppen, Ihr Fachvokabular und die Namen, die Sie Sprechern geben. Die App überträgt diese Daten in die CloudKit-Datenbank der App bei Apple. Lesen können sie nur Sie selbst und der Famulus-Rechner des Projekts, der die Aufnahmen bearbeitet. Ihr Anmeldename bleibt im Schlüsselbund Ihres Geräts.</p>
+<h3>Wie die Aufnahmen bearbeitet werden</h3>
+<ul>
+<li><b>Transkription und Sprechertrennung:</b> auf dem Famulus-Rechner, mit Apples Spracherkennung und lokalen Modellen. Die Audiodatei verlässt dabei nicht den Rechner.</li>
+<li><b>Sprachliche Glättung und abgeleitete Ergebnisse</b> (Rezeptkarten, Protokolle, Ideenkarten …): Apple Private Cloud Compute. Lehnt Apple einen Abschnitt ab oder ist der Dienst nicht erreichbar, wird dieser Abschnitt mit DeepSeek über Ollama Cloud bearbeitet; ist dessen Kontingent erschöpft, mit Claude (Anthropic). Dabei wird nur Text übermittelt, kein Ton.</li>
+<li><b>Folien ohne lesbaren Text</b> werden als Bild gelesen: mit Kimi über Ollama Cloud, ersatzweise mit Google Gemini.</li>
+<li><b>Sprechererkennung innerhalb einer Gruppe:</b> Stimmabdrücke und ein lokales Entscheidungsmodell auf dem Famulus-Rechner. Stimmabdrücke sind biometrische Daten. Sie werden nie in die Cloud übertragen und mit der Gruppe gelöscht.</li>
+</ul>
+<h3>Namen</h3>
+<p>Sprecher heißen „Person A, B …“, bis Sie einen Namen vergeben. Ein Name erscheint im Dokument nur, wenn die Einwilligung der Person vermerkt ist; sonst nur ihre Rolle.</p>
+<h3>Keine Werbung, kein Tracking</h3>
+<p>Die App enthält keine Werbung, keine Analysewerkzeuge und keine Drittanbieter-Bibliotheken zur Nachverfolgung. Diese Webseite setzt keine Cookies; sie lädt nur die Schrift EB Garamond von Google Fonts.</p>
+<h3>Löschen</h3>
+<p>„Einstellungen → Alle meine Daten löschen“ entfernt Ihre Aufnahmen, Ergebnisse und Gruppen aus der App und aus CloudKit. Die Arbeitskopien auf dem Famulus-Rechner, Stimmabdrücke eingeschlossen, werden ebenfalls gelöscht. Auf Wunsch genügt auch eine E-Mail an die oben genannte Adresse.</p>
+<h3>Ihre Rechte</h3>
+<p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde.</p>
+</div>
+
+<div data-l="en" class="legal">
+<h3>What the app stores</h3>
+<p>Your recordings, any slides and photos you add, the names of your groups, your subject vocabulary and the names you give speakers. The app transfers these data into the app's CloudKit database at Apple. Only you and the project's Famulus computer, which processes the recordings, can read them. Your login name stays in your device's keychain.</p>
+<h3>How recordings are processed</h3>
+<ul>
+<li><b>Transcription and speaker separation:</b> on the Famulus computer, with Apple's speech recognition and local models. The audio file does not leave that computer.</li>
+<li><b>Smoothing and derived results</b> (recipe cards, minutes, idea cards …): Apple Private Cloud Compute. If Apple declines a passage or the service is not available, that passage is processed with DeepSeek via Ollama Cloud; when that quota is used up, with Claude (Anthropic). Only text is sent, never audio.</li>
+<li><b>Slides without readable text</b> are read as images: with Kimi via Ollama Cloud, as a fallback with Google Gemini.</li>
+<li><b>Speaker recognition within a group:</b> voiceprints and a local decision model on the Famulus computer. Voiceprints are biometric data. They are never sent to the cloud and are deleted together with the group.</li>
+</ul>
+<h3>Names</h3>
+<p>Speakers are called “Person A, B …” until you give a name. A name appears in the document only when the person's consent is recorded; otherwise only their role.</p>
+<h3>No ads, no tracking</h3>
+<p>The app contains no advertising, no analytics and no third-party tracking libraries. This website sets no cookies; it only loads the EB Garamond typeface from Google Fonts.</p>
+<h3>Deletion</h3>
+<p>“Settings → Delete all my data” removes your recordings, results and groups from the app and from CloudKit. The working copies on the Famulus computer, voiceprints included, are deleted as well. An e-mail to the address above also suffices.</p>
+<h3>Your rights</h3>
+<p>You have the right of access, rectification, erasure, restriction of processing, data portability and objection, and the right to lodge a complaint with a data protection supervisory authority.</p>
+</div>
+</section>
+<style>.legal{max-width:44em}.legal h3{font-size:22px;margin:26px 0 6px}.legal p,.legal li{color:var(--ink)}.legal li{margin:6px 0}</style>
+
+<footer><span data-l="de">Famulus Academic · ein Werkzeug aus dem Famulus-Projekt</span><span data-l="en">Famulus Academic · a tool of the Famulus project</span> ·
+Gerd Graßhoff, Humboldt-Universität zu Berlin · <a href="mailto:gerd.grasshoff@hu-berlin.de">gerd.grasshoff@hu-berlin.de</a> ·
+<a href="datenschutz.html"><span data-l="de">Datenschutz</span><span data-l="en">Privacy</span></a> · <a href="https://famulus.lettre.ai/">famulus.lettre.ai</a></footer>
+</div><script>
+(function(){var b=document.getElementById('lang');var h=document.documentElement;
+function set(l){h.lang=l;b.textContent=l==='de'?'English':'Deutsch';try{localStorage.setItem('fa-lang',l)}catch(e){}}
+var s=null;try{s=localStorage.getItem('fa-lang')}catch(e){}
+set(s||((navigator.language||'de').slice(0,2)==='de'?'de':'en'));
+b.addEventListener('click',function(){set(h.lang==='de'?'en':'de')});})();
+</script></body></html>
